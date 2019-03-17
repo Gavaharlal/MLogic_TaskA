@@ -8,7 +8,6 @@ public abstract class AbstractUnaryOperator implements Operator {
         this.operand = operand;
     }
 
-
     @Override
     public String getTree() {
         return "(" + getToken() + operand.getTree() + ")";
